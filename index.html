@@ -7,7 +7,20 @@
   import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
   createChat({
-    webhookUrl: 'https://firstarcadia.app.n8n.cloud/webhook/c42ce538-7be8-4fe6-91f1-fcfcb06cbe61/chat'
+    webhookUrl: 'https://firstarcadia.app.n8n.cloud/webhook/c42ce538-7be8-4fe6-91f1-fcfcb06cbe61/chat',
+    chatTitle: "Çözüm360 Asistanı 🤖",
+    subtitle: "Size yardımcı olmak için buradayım",
+    botName: "Asistan",
+    initialMessages: [
+      "Merhaba! Size nasıl yardımcı olabilirim?",
+      "Hizmetlerimiz hakkında bilgi almak ister misiniz?"
+    ],
+    theme: {
+      primary: "#0ea5e9",   // buton ve vurgu rengi
+      secondary: "#ffffff", // yazılar
+      background: "#f9f9f9" // sohbet alanı
+    }
   });
 </script>
+
 </body></html>
