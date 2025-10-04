@@ -2,10 +2,8 @@
 <script type="module">
 	<!-- n8n Chatbot -->
 <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-
-<script type="module">
-  import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
-
+<script src="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.umd.js"></script>
+<script>
   createChat({
     webhookUrl: "https://firstarcadia.app.n8n.cloud/webhook/c42ce538-7be8-4fe6-91f1-fcfcb06cbe61/chat"
   });
